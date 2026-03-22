@@ -53,3 +53,4 @@ The world bible is designed to be machine-readable — drop it into a code repo 
 
 - A vault or folder of Markdown files (the plugin writes directly to it)
 - Obsidian recommended (for wikilink navigation) but not required
+- [`uv`](https://docs.astral.sh/uv/) (for running the image generation script)

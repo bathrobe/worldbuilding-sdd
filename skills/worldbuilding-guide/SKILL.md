@@ -82,7 +82,7 @@ uv run ${CLAUDE_PLUGIN_ROOT}/scripts/generate_image.py "prompt" -o /path/to/outp
 
 Options: `--aspect-ratio` (`1:1`, `16:9`, etc.), `--size` (`1K`, `2K`, `4K`), `--reference` (repeatable, up to 14), `--use-search` (Google Search grounding). Always use `.jpg` extension — Gemini returns JPEG.
 
-After generating, open with Quick Look so the user can see it: `qlmanage -p "$IMAGE_PATH" &>/dev/null &`
+After generating, display the image to the user (e.g., `qlmanage -p "$IMAGE_PATH" &>/dev/null &` on macOS, `xdg-open "$IMAGE_PATH"` on Linux, or `start "$IMAGE_PATH"` on Windows).
 
 ### Supported Models
 

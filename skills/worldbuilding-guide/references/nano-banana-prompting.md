@@ -10,7 +10,7 @@ uv run ${CLAUDE_PLUGIN_ROOT}/scripts/generate_image.py "prompt" -o /path/to/outp
 
 Options: `--aspect-ratio` / `-a` (default `1:1`), `--size` / `-s` (`1K`/`2K`/`4K`, default `2K`), `--reference` / `-r` (repeatable, up to 14 images), `--use-search` (Google Search grounding). Always use `.jpg` extension.
 
-After generating, open with Quick Look: `qlmanage -p "$IMAGE_PATH" &>/dev/null &`
+After generating, display the image to the user (e.g., `qlmanage -p` on macOS, `xdg-open` on Linux, `start` on Windows).
 
 Requires `GEMINI_API_KEY` in plugin `.env`, environment, or `~/.claude/.env`.
 
