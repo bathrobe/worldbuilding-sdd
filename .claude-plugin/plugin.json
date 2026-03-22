@@ -1,0 +1,9 @@
+{
+  "name": "worldbuilding-sdd",
+  "version": "0.1.0",
+  "description": "Spec-driven worldbuilding plugin. Eight commands guide you from emotional seed to stress-tested world bible — interviewing, researching, locking decisions, generating concept art, and writing to your vault.",
+  "author": {
+    "name": "Joe"
+  },
+  "keywords": ["worldbuilding", "obsidian", "spec-driven-development", "creative-writing", "concept-art"]
+}
